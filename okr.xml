@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root version="20190819">
+    <world>
+        <walls>
+            <wall stroke-width="10" id="{de7dfeee-a9bf-425a-a93f-ce2ca608dc4c}" stroke="#ff000000" begin="809.75:-806.75" end="959.75:-806.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{aa213d5f-3da7-44f8-9fed-c7d98053b3fd}" stroke="#ff000000" begin="959.75:-806.75" end="1059.75:-756.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{de69aa69-8bfd-4c85-b385-b61f82a50156}" stroke="#ff000000" begin="1059.75:-756.75" end="1109.75:-606.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{207f5391-ddf4-47a0-b0fd-872091078548}" stroke="#ff000000" begin="1109.75:-606.75" end="1109.75:-356.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{93d2cda9-fe80-4866-891e-585cd3d9db73}" stroke="#ff000000" begin="1109.75:-356.75" end="1059.75:-206.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{065df1d2-7f02-4cd3-aa51-977817c60272}" stroke="#ff000000" begin="259.75:43.25" end="459.75:-106.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{0818be95-4b9d-4237-bea8-3a285b024d3a}" stroke="#ff000000" begin="709.75:-756.75" end="809.75:-806.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{26a13cfb-e654-497e-898a-33398887bb02}" stroke="#ff000000" begin="609.75:-656.75" end="709.75:-756.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{7745e5bf-87ad-4dd7-9497-82e1aa46d7c5}" stroke="#ff000000" begin="459.75:-106.75" end="559.75:-306.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{78902da3-f800-4c99-9f38-aa4b2fadbc56}" stroke="#ff000000" begin="559.75:-306.75" end="559.75:-556.75" stroke-style="none" fill="#ff000000"/>
+            <wall stroke-width="10" id="{ae5d4a6c-472f-4033-ba8b-3da9039c1b70}" stroke="#ff000000" begin="559.75:-556.75" end="609.75:-656.75" stroke-style="none" fill="#ff000000"/>
+        </walls>
+        <skittles/>
+        <balls/>
+        <colorFields>
+            <rectangle stroke-width="3" id="{04749aa5-fbb2-4235-b6fd-e4a82a6835a0}" stroke="#ff32cd32" begin="652:-297" end="702:-246" fill-style="solid" stroke-style="solid" fill="#ff32cd32"/>
+        </colorFields>
+        <images/>
+        <regions/>
+    </world>
+    <robots>
+        <robot id="trikKitRobot" position="1157.42:-403.244" direction="95.15">
+            <sensors>
+                <sensor type="trik::robotModel::parts::TrikSonarSensor" position="43:47" port="D2###input######sensorD2" direction="42.6467"/>
+                <sensor type="trik::robotModel::parts::TrikSonarSensor" position="42:4" port="D1###input######sensorD1" direction="-45.8814"/>
+            </sensors>
+            <startPosition y="25" id="{2af4c008-0eee-4695-9b6f-65b71797733a}" x="25" direction="0"/>
+            <wheels right="M3###output###М3###" left="M4###output###М4###"/>
+        </robot>
+    </robots>
+    <settings realisticSensors="false" realisticPhysics="false" realisticMotors="false"/>
+</root>
